@@ -29,7 +29,7 @@ INSERT INTO Classes(name, language, start_on, end_on) VALUES
 
 CREATE TABLE Enrollments(
     student_id INTEGER REFERENCES Students(id),
-    class_id INTEGER REFERENCES Class(id)
+    class_id INTEGER REFERENCES Classes(id)
 );
 
 INSERT INTO Enrollments VALUES
