@@ -22,7 +22,7 @@ CREATE TABLE Classes(
     end_on DATE    
 );
 
-INSERT INTO Class(name, language, start_on, end_on) VALUES 
+INSERT INTO Classes(name, language, start_on, end_on) VALUES 
     ('Ruby for Nuclear Automation', 2, '11/3/2014', '12/5/2014'),
     ('Python Dev Accelerator', 1, '10/6/2014', '11/28/2014'),
     ('Build Your First Website', 3, NULL, NULL);
