@@ -29,7 +29,7 @@ Mon, Oct 20:
   *
 
 Tue, Oct 21:
-  *
+  * Michelle
   *
 
 Wed, Oct 22:
