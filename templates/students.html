@@ -6,5 +6,10 @@
 
     <body>
         <h1>Phone Tree</h1>
+        <ul>
+            {% for fname, lname in students %}
+                <li>{{lname}}, {{fname}}</li>
+            {% endfor %}
+        </ul>
     </body>
 </html>

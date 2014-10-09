@@ -22,8 +22,7 @@ def get_students():
     cur = conn.cursor()
     cur.execute("SELECT first_name, last_name FROM Students")
     rs = cur.fetchall()
-    #return str(rs)
-    return render_template("students.html")
+    return render_template("students.html", students=rs)
     
 
 if __name__ == "__main__":
