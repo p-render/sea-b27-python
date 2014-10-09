@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import os, psycopg2, urlparse
 
 urlparse.uses_netloc.append("postgres")
@@ -22,7 +22,9 @@ def get_students():
     cur = conn.cursor()
     cur.execute("SELECT first_name, last_name FROM Students")
     rs = cur.fetchall()
-    return str(rs)
+    #return str(rs)
+    return render_template("students.html")
+    
 
 if __name__ == "__main__":
     app.run()
