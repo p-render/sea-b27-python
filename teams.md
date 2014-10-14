@@ -6,9 +6,9 @@ Here's the definition of project teams in this session.
 
             | Member                | Member                | Member                |
 ------------|:----------------------|:----------------------|:----------------------|
-Team #1     |                       |                       |                       |
-Team #2     |                       |                       |                       |
-Team #3     |                       |                       |                       |
+Team #1     | Charles               | Casey                 | Pat                   |
+Team #2     | Ben                   | Charlie               | Jason                 |
+Team #3     | Alicija               | Michelle              | Mark                  |
 
 
 ## Second Half
