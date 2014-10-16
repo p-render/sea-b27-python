@@ -14,7 +14,7 @@ class EchoServer:
         server_socket.listen(1)
         while self.running:
             connection, client_address = server_socket.accept()
-            msg = connection.recv(16)
+            msg = connection.recv(32)
             connection.sendall(msg)
             connection.shutdown(socket.SHUT_WR)
             connection.close()
